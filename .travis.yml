@@ -1,7 +1,9 @@
-sudo: false
 language: node_js
-node_js:
-  - 'node'
+node_js: node
+jobs:
+  include:
+    - dist: xenial
+      script: eval xvfb-run `npm install mocha && mocha out/**/*.spec.js -s 0`
 
-script:
-  - npm run build
+notifications:
+  email: false
