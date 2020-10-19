@@ -2,7 +2,7 @@
   "name": "vscode-stylefmt",
   "displayName": "stylefmt",
   "description": "Modern CSS Formatter",
-  "version": "2.6.1",
+  "version": "2.6.2",
   "publisher": "ronilaukkarinen",
   "license": "MIT",
   "engines": {
@@ -34,12 +34,10 @@
   ],
   "main": "./out/extension",
   "contributes": {
-    "commands": [
-      {
-        "command": "stylefmt.execute",
-        "title": "stylefmt: Format CSS"
-      }
-    ],
+    "commands": [{
+      "command": "stylefmt.execute",
+      "title": "stylefmt: Format CSS"
+    }],
     "configuration": {
       "type": "object",
       "title": "stylefmt configuration",
@@ -69,12 +67,10 @@
         }
       }
     },
-    "jsonValidation": [
-      {
-        "fileMatch": "**/.stylelintrc*",
-        "url": "http://json.schemastore.org/stylelintrc.json"
-      }
-    ]
+    "jsonValidation": [{
+      "fileMatch": "**/.stylelintrc*",
+      "url": "http://json.schemastore.org/stylelintrc.json"
+    }]
   },
   "devDependencies": {
     "@types/extend": "3.0.1",

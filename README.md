@@ -8,7 +8,7 @@ This is a WIP fork from [mrmlnc/vscode-stylefmt](https://github.com/mrmlnc/vscod
 
 Do you like this project? Support it by donating, creating an issue or pull request.
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)][paypal_ronilaukkarinen]
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/ronilaukkarinen?locale.x=en_US)
 
 ## Install
 
