@@ -57,7 +57,9 @@ class Range {
 
 const stylefmt = proxyquire('./index', {
 	vscode: {
+		// eslint-disable-next-line @typescript-eslint/naming-convention
 		Position,
+		// eslint-disable-next-line @typescript-eslint/naming-convention
 		Range,
 		workspace: {
 			getWorkspaceFolder: () => ({ uri: { fsPath: '.tmp' } })
