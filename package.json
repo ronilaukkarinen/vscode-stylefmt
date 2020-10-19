@@ -92,11 +92,13 @@
     "tslint-config-xo": "2.0.0",
     "typescript": "4.0.3",
     "typescript-eslint": "0.0.1-alpha.0",
-    "vscode-test": "1.4.0"
+    "vscode-test": "1.4.0",
+    "vscode": "1.1.37"
   },
   "dependencies": {
     "extend": "3.0.2",
     "npm-check-updates": "9.1.0",
+    "postcss": "8.1.2",
     "postcss-scss": "3.0.2",
     "stylefmt": "git+https://git@github.com/ronilaukkarinen/stylefmt.git",
     "stylelint": "13.7.2",
