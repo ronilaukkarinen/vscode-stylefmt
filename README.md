@@ -40,6 +40,15 @@ See the [extension installation guide](https://code.visualstudio.com/docs/editor
   * You can use global keyboard shortcut <kbd>ALT+SHIFT+F</kbd> or right-click context menu `Format code`.
   * Or press <kbd>F1</kbd> and run the command named `stylefmt: Format CSS`.
 
+To automatically format on save, run <kbd>Cmd+Shift+P</kbd> (or <kbd>CTRL+Shift+P</kbd> on Windows systems) and select `Preferences: Open Settings (JSON)` and add this to your settings.json file:
+
+``` json
+"[scss]": {
+    "editor.defaultFormatter": "ronilaukkarinen.vscode-stylefmt",
+    "editor.formatOnSave": true
+  },
+  ```
+
 ## Supported languages
 
   * CSS
