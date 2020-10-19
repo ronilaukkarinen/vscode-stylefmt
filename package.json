@@ -34,10 +34,12 @@
   ],
   "main": "./out/extension",
   "contributes": {
-    "commands": [{
-      "command": "stylefmt.execute",
-      "title": "stylefmt: Format CSS"
-    }],
+    "commands": [
+      {
+        "command": "stylefmt.execute",
+        "title": "stylefmt: Format CSS"
+      }
+    ],
     "configuration": {
       "type": "object",
       "title": "stylefmt configuration",
@@ -67,10 +69,12 @@
         }
       }
     },
-    "jsonValidation": [{
-      "fileMatch": "**/.stylelintrc*",
-      "url": "http://json.schemastore.org/stylelintrc.json"
-    }]
+    "jsonValidation": [
+      {
+        "fileMatch": "**/.stylelintrc*",
+        "url": "http://json.schemastore.org/stylelintrc.json"
+      }
+    ]
   },
   "devDependencies": {
     "@types/extend": "3.0.1",
@@ -79,12 +83,15 @@
     "@types/proxyquire": "1.3.28",
     "@types/rimraf": "3.0.0",
     "@types/vscode": "1.16.0",
+    "@typescript-eslint/eslint-plugin": "4.4.1",
+    "@typescript-eslint/parser": "4.4.1",
+    "eslint": "7.11.0",
     "mocha": "7.1.2",
     "proxyquire": "2.1.3",
     "rimraf": "3.0.2",
     "tslint": "5.5.0",
     "tslint-config-xo": "1.3.0",
-    "typescript": "2.4.2"
+    "typescript": "3.3.1"
   },
   "dependencies": {
     "extend": "3.0.2",
@@ -95,7 +102,7 @@
   },
   "scripts": {
     "clean": "rimraf out",
-    "lint": "tslint src/**/*.ts",
+    "lint": "eslint src/**/*.ts",
     "compile": "tsc",
     "test": "mocha out/**/*.spec.js -s 0",
     "build": "npm run clean && npm run lint && npm run compile && npm t",

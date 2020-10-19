@@ -16,7 +16,6 @@
 		"noUnusedLocals": false,
 		"noUnusedParameters": false,
 		"checkJs": false,
-		"esModuleInterop": false,
 		"allowSyntheticDefaultImports": false,
 
 		"emitDecoratorMetadata": true,
