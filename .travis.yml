@@ -1,9 +1,11 @@
 language: node_js
 node_js: node
-jobs:
-  include:
-    - dist: xenial
-      script: npm install mocha && npm install eslint --save-dev && npm install typescript-eslint --save-dev && npm install @typescript-eslint/eslint-plugin --save-dev && npm install @typescript-eslint/parser --save-dev && npm install mocha out/**/*.spec.js -s 0 && eslint src/**/*.ts
+dist: xenial
+
+script:
+    - npm i mocha eslint typescript-eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser
+    - mocha out/**/*.spec.js -s 0
+    - eslint src/**/*.ts
 
 notifications:
   email: false
