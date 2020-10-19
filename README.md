@@ -16,7 +16,7 @@ The best thing in stylefmt is that it supports [stylelint](https://stylelint.io/
 
 ## Top contributors
 
-This theme is constantly kept up to date by the following persons and a bunch of [awesome contributors](https://github.com/ronilaukkarinen/vscode-stylefmt/graphs/contributors). Wanna join in development? Let us know!
+This plugin is constantly kept up to date by the following persons and a bunch of [awesome contributors](https://github.com/ronilaukkarinen/vscode-stylefmt/graphs/contributors). Wanna join in development? Let us know!
 
 | [![Roni Laukkarinen](https://avatars3.githubusercontent.com/u/1534150?v=4&s=70)](https://github.com/ronilaukkarinen) |
 | --- |
