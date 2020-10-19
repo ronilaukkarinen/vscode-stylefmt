@@ -4,13 +4,15 @@
 
 > [stylefmt](https://github.com/morishitter/stylefmt) is a tool that automatically formats your stylesheets.
 
-🍴 This is a WIP fork from [mrmlnc/vscode-stylefmt](https://github.com/mrmlnc/vscode-stylefmt) which is currently obsolete. This version is in use and kept up to date.
+🍴 This is a WIP fork from [mrmlnc/vscode-stylefmt](https://github.com/mrmlnc/vscode-stylefmt) which is currently obsolete. This version is in daily use and kept up to date.
 
 ## 🖌 Advantages over prettier/stylelint - why use stylefmt?
 
-While you should use [stylelint](https://stylelint.io/) for linting, for formatting it's not the best solution. Stylelint forces styles and it's hard to configure for just basic indenting and aligning styles, especially with mixins and map-gets where it may even break the formatting completely.
+While you should definitely use [stylelint](https://stylelint.io/) for linting CSS/SCSS, for automatic formatting it's not the best solution. Prettier forces styles to certain format and it doesn't give you much options. It's tricky especially with SCSS mixins and map-gets where it may even break the formatting completely.
 
-It's general knowledge that [stylefmt](https://github.com/morishitter/stylefmt) has not been updated since on 18 Oct 2018 which is a sad thing because basically it is just having old dependencies. There are still users who like to format their styles automatically and controlled with stylefmt so that's why this plugin relies on a fork of [stylefmt](https://github.com/ronilaukkarinen/stylefmt). The main goal is to keep this project active and alive.
+It's general knowledge that [stylefmt](https://github.com/morishitter/stylefmt) has not been updated since on 18 Oct 2018 which is a sad thing because basically it is just having old dependencies. However, there are still users who like to format their styles automatically and controlled with stylefmt so that's why this plugin relies on a fork of [stylefmt](https://github.com/ronilaukkarinen/stylefmt). The main goal is to keep this project active and alive.
+
+The best thing in stylefmt is that it supports [stylelint](https://stylelint.io/) out-of-the-box without being too restrictive.
 
 ## Top contributors
 
