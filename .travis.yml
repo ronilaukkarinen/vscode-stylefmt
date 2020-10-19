@@ -4,8 +4,7 @@ dist: xenial
 
 script:
     - npm i mocha eslint typescript-eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser
-    - mocha out/**/*.spec.js -s 0
-    - eslint src/**/*.ts
+    - npm run test
 
 notifications:
   email: false
