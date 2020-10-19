@@ -3,7 +3,7 @@ node_js: node
 jobs:
   include:
     - dist: xenial
-      script: eval xvfb-run `npm install mocha && mocha out/**/*.spec.js -s 0`
+      script: npm install mocha && npm install eslint --save-dev && npm install typescript-eslint --save-dev && npm install @typescript-eslint/eslint-plugin --save-dev && npm install @typescript-eslint/parser --save-dev && npm install mocha out/**/*.spec.js -s 0 && eslint src/**/*.ts
 
 notifications:
   email: false
