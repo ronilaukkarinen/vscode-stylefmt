@@ -3,6 +3,7 @@
 		"tslint-config-xo/esnext"
 	],
 	"rules": {
+		"comment-format": false,
 		"object-curly-spacing": false,
 		"ter-arrow-parens": true,
 

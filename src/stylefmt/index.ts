@@ -31,6 +31,7 @@ export function use(settings: Types.ISettings, document: vscode.TextDocument, ra
 
 	const postcssConfig: postcss.ProcessOptions = {
 		from: document.uri.fsPath || rootDirectory || '',
+		// @ts-ignore
 		syntax: isSugarss ? sugarss : scssSyntax
 	};
 
@@ -38,6 +39,7 @@ export function use(settings: Types.ISettings, document: vscode.TextDocument, ra
 		stylefmt(stylefmtConfig)
 	];
 
+	// @ts-ignore
 	return postcss(postcssPlugins)
 		.process(text, postcssConfig)
 		.then((result) => (<Types.IResult>{

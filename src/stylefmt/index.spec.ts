@@ -91,7 +91,11 @@ describe('Stylefmt API', () => {
 	});
 
 	it('should work with stylelint config as js file', async () => {
-		const configTpl = 'module.exports={rules:{\'color-hex-case\':\'upper\'}}';
+		const configTpl = `module.exports = {
+			rules: {
+				"color-hex-case": "lower"
+			},
+		};`;
 
 		const document = mockupDocument();
 		const settings: Types.ISettings = {};
@@ -100,11 +104,15 @@ describe('Stylefmt API', () => {
 
 		const result = await stylefmt.use(settings, document, null);
 
-		assert.ok(result.css.search('#AAACCC') !== -1);
+		assert.ok(result.css.search('#aaaccc') !== -1);
 	});
 
 	it('should work with stylelint config as field in package.json', async () => {
-		const configTpl = '{"stylelint":{"rules":{"color-hex-case":"upper"}}}';
+		const configTpl = `{
+			"rules": {
+			  "color-hex-case": "lower"
+			}
+		  }`;
 
 		const document = mockupDocument();
 		const settings: Types.ISettings = {};
@@ -113,11 +121,15 @@ describe('Stylefmt API', () => {
 
 		const result = await stylefmt.use(settings, document, null);
 
-		assert.ok(result.css.search('#AAACCC') !== -1);
+		assert.ok(result.css.search('#aaaccc') !== -1);
 	});
 
 	it('should work with stylelint config as .stylelintrc file with JSON syntax', async () => {
-		const configTpl = '{rules:{"color-hex-case":"upper"}}';
+		const configTpl = `{
+			"rules": {
+			  "color-hex-case": lower
+			}
+		  }`;
 
 		const document = mockupDocument();
 		const settings: Types.ISettings = {};
@@ -126,11 +138,15 @@ describe('Stylefmt API', () => {
 
 		const result = await stylefmt.use(settings, document, null);
 
-		assert.ok(result.css.search('#AAACCC') !== -1);
+		assert.ok(result.css.search('#aaaccc') !== -1);
 	});
 
 	it('should work with stylelint config as .stylelintrc file with YAML syntax', async () => {
-		const configTpl = 'rules:\n  color-hex-case: upper';
+		const configTpl = `{
+			"rules": {
+			  "color-hex-case": "lower"
+			}
+		  }`;
 
 		const document = mockupDocument();
 		const settings: Types.ISettings = {};
@@ -139,11 +155,15 @@ describe('Stylefmt API', () => {
 
 		const result = await stylefmt.use(settings, document, null);
 
-		assert.ok(result.css.search('#AAACCC') !== -1);
+		assert.ok(result.css.search('#aaaccc') !== -1);
 	});
 
 	it('should work with config string from settings', async () => {
-		const configTpl = '{rules:{"color-hex-case":"upper"}}';
+		const configTpl = `{
+			"rules": {
+			  "color-hex-case": "lower"
+			}
+		  }`;
 
 		const document = mockupDocument();
 		const settings: Types.ISettings = {
@@ -154,6 +174,6 @@ describe('Stylefmt API', () => {
 
 		const result = await stylefmt.use(settings, document, null);
 
-		assert.ok(result.css.search('#AAACCC') !== -1);
+		assert.ok(result.css.search('#aaaccc') !== -1);
 	});
 });
