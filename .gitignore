@@ -1,12 +1,9 @@
-# Logs
 logs/
 *.log
 npm-debug.log*
 package-lock.json
-
-# Dependency directory
 node_modules/
-
-# Build directory
+.DS_Store
+src/.DS_Store
 out/
 *.vsix
