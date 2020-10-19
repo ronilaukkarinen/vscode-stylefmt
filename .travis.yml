@@ -4,7 +4,6 @@ dist: xenial
 
 script:
     - npm i mocha eslint typescript-eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser
-    - git clone https://github.com/ronilaukkarinen/vscode-stylefmt
     - npm run build
     - npm run test
 
