@@ -34,12 +34,10 @@
   ],
   "main": "./out/extension",
   "contributes": {
-    "commands": [
-      {
-        "command": "stylefmt.execute",
-        "title": "stylefmt: Format CSS"
-      }
-    ],
+    "commands": [{
+      "command": "stylefmt.execute",
+      "title": "stylefmt: Format CSS"
+    }],
     "configuration": {
       "type": "object",
       "title": "stylefmt configuration",
@@ -69,12 +67,10 @@
         }
       }
     },
-    "jsonValidation": [
-      {
-        "fileMatch": "**/.stylelintrc*",
-        "url": "http://json.schemastore.org/stylelintrc.json"
-      }
-    ]
+    "jsonValidation": [{
+      "fileMatch": "**/.stylelintrc*",
+      "url": "http://json.schemastore.org/stylelintrc.json"
+    }]
   },
   "devDependencies": {
     "@types/extend": "3.0.1",
@@ -107,10 +103,5 @@
     "test": "mocha out/**/*.spec.js -s 0",
     "build": "npm run clean && npm run lint && npm run compile && npm t",
     "watch": "npm run clean && npm run lint && npm run compile -- --sourceMap --watch"
-  },
-  "__metadata": {
-    "id": "b9b38184-b873-4eae-b226-f332c40afd1a",
-    "publisherId": "c958976e-9702-4f1a-8bdf-26b7bc012d65",
-    "publisherDisplayName": "mrmlnc"
   }
 }
