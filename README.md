@@ -1,10 +1,12 @@
 # vscode-stylefmt
 
-[![Build Status](https://img.shields.io/travis/ronilaukkarinen/vscode-stylefmt.svg?style=flat-square)](https://travis-ci.org/ronilaukkarinen/vscode-stylefmt) [![GitHub release](https://img.shields.io/github/tag/ronilaukkarinen/vscode-stylefmt.svg?style=flat-square)](https://github.com/ronilaukkarinen/vscode-stylefmt/releases)
+[![Build Status](https://img.shields.io/badge/visual%20studio-marketplace-green.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=ronilaukkarinen.vscode-stylefmt) [![Build Status](https://img.shields.io/travis/ronilaukkarinen/vscode-stylefmt.svg?style=flat-square)](https://travis-ci.org/ronilaukkarinen/vscode-stylefmt) [![Dependencies](https://david-dm.org/ronilaukkarinen/vscode-stylefmt.svg?style=flat-square)](https://david-dm.org/ronilaukkarinen/vscode-stylefmt) [![GitHub release](https://img.shields.io/github/tag/ronilaukkarinen/vscode-stylefmt.svg?style=flat-square)](https://github.com/ronilaukkarinen/vscode-stylefmt/releases)
 
 > [stylefmt](https://github.com/morishitter/stylefmt) is a tool that automatically formats your stylesheets.
 
 🍴 This is a WIP fork from [mrmlnc/vscode-stylefmt](https://github.com/mrmlnc/vscode-stylefmt) which is currently obsolete. This version is in daily use and kept up to date.
+
+[![Screen cap](https://i.imgur.com/h5vFQPP.gif)](https://i.imgur.com/h5vFQPP.gif)
 
 ## 🖌 Advantages over prettier/stylelint - why use stylefmt?
 
