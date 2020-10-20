@@ -1,6 +1,6 @@
 # vscode-stylefmt
 
-[![Build Status](https://img.shields.io/travis/ronilaukkarinen/vscode-stylefmt.svg?style=flat-square)](https://travis-ci.org/ronilaukkarinen/vscode-stylefmt) [![GitHub release](https://img.shields.io/github/tag/ronilaukkarinen/vscode-stylefmt.svg?style=flat-square)](https://github.com/ronilaukkarinen/vscode-stylefmt/releases) ![GitHub contributors](https://img.shields.io/github/contributors/ronilaukkarinen/vscode-stylefmt.svg?style=flat-square)
+[![Build Status](https://img.shields.io/travis/ronilaukkarinen/vscode-stylefmt.svg?style=flat-square)](https://travis-ci.org/ronilaukkarinen/vscode-stylefmt) [![GitHub release](https://img.shields.io/github/tag/ronilaukkarinen/vscode-stylefmt.svg?style=flat-square)](https://github.com/ronilaukkarinen/vscode-stylefmt/releases)
 
 > [stylefmt](https://github.com/morishitter/stylefmt) is a tool that automatically formats your stylesheets.
 
