@@ -6,7 +6,7 @@ import * as vscode from 'vscode';
 import * as postcss from 'postcss';
 import * as scssSyntax from 'postcss-scss';
 import * as sugarss from 'sugarss';
-import * as stylefmt from 'stylefmt';
+import * as stylefmt from '@ronilaukkarinen/stylefmt';
 
 import * as settingsManager from './settings-manager';
 
