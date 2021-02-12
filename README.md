@@ -18,10 +18,6 @@ The official [stylefmt](https://github.com/morishitter/stylefmt) package has not
 
 The best thing in stylefmt is that it supports [stylelint](https://stylelint.io/) out-of-the-box without being too restrictive.
 
-## What about the versioning?
-
-Yeah, you noticed. It bumped from 2 to 6 on Feb 2021. This was an accident and it seems [it cannot be reversed](https://github.com/microsoft/vscode-vsce/issues/176). Blame one tired Friday.
-
 ## Top contributors
 
 This plugin is constantly kept up to date by the following persons and a bunch of [awesome contributors](https://github.com/ronilaukkarinen/vscode-stylefmt/graphs/contributors). Wanna join in development? Let us know!
