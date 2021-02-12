@@ -10,11 +10,17 @@
 
 ## 🖌 Advantages over prettier/stylelint - why use stylefmt?
 
-While you should definitely use [stylelint](https://stylelint.io/) for linting CSS/SCSS, for automatic formatting it's not the best solution. Prettier forces styles to certain format and it doesn't give you much options. It's tricky especially with SCSS mixins and map-gets where it may even break the formatting completely.
+While you should definitely use [stylelint](https://stylelint.io/) for linting CSS/SCSS, its `"source.fixAll.stylelint": true` can't really fix all. This plugin will fix the rest, indentations and positions etc. Trust me, you want these both.
 
-It's general knowledge that [stylefmt](https://github.com/morishitter/stylefmt) has not been updated since on 18 Oct 2018 which is a sad thing because basically it is just having old dependencies. However, there are still users who like to format their styles automatically and controlled with stylefmt so that's why this plugin relies on a fork of [stylefmt](https://github.com/ronilaukkarinen/stylefmt). The main goal is to keep this project active and alive.
+What about Prettier? Well, it forces styles to a certain format and it doesn't give you much options. It's tricky especially with SCSS mixins and map-gets where it may even break the formatting completely by forcibly lining them up into a single line.
+
+The official [stylefmt](https://github.com/morishitter/stylefmt) package has not been updated since on 18 Oct 2018. However, there are still users who like to format their styles automatically and controlled with stylefmt so that's why this plugin relies on a forked npm package, [@ronilaukkarinen/stylefmt](https://github.com/ronilaukkarinen/stylefmt). The main goal is to keep this project **active and alive**.
 
 The best thing in stylefmt is that it supports [stylelint](https://stylelint.io/) out-of-the-box without being too restrictive.
+
+## What about the versioning?
+
+Yeah, you noticed. It bumped from 2 to 6 on Feb 2021. This was an accident and it seems [it cannot be reversed](https://github.com/microsoft/vscode-vsce/issues/176). Blame one tired Friday.
 
 ## Top contributors
 
