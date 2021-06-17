@@ -1,9 +1,9 @@
-# Change Log
+### 2.8.6: 2021-06-17
 
-All notable changes to the "vscode-stylefmt" extension will be documented in this file.
+* Update stylefmt to 6.1.8
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+### 2.8.5: 2021-02-25
 
-## [Unreleased]
-
-- Initial release
+* Open changelog
+* Updated packages
+* Add release on GitHub with existing tag
