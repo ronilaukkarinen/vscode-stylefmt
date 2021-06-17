@@ -1,3 +1,7 @@
+### 2.8.8: 2021-06-17
+
+* Update stylefmt to 6.1.9
+
 ### 2.8.7: 2021-06-17
 
 * Update stylefmt to 6.1.8
