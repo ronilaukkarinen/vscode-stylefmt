@@ -2,7 +2,7 @@
   "name": "vscode-stylefmt",
   "displayName": "stylefmt",
   "description": "Modern CSS Formatter",
-  "version": "2.9.0",
+  "version": "2.9.1",
   "publisher": "ronilaukkarinen",
   "license": "MIT",
   "engines": {
