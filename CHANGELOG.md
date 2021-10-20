@@ -1,3 +1,9 @@
+### 2.9.3: 2021-06-22
+
+Side note: Skipped 2.9.2 because of vsce token expiration.
+
+* Update stylefmt to 6.2.2
+
 ### 2.9.1: 2021-06-22
 
 * Update stylefmt to 6.2.1
