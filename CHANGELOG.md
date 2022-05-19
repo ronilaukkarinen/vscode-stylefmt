@@ -2,6 +2,7 @@
 
 * Update packages and fix eslint errors
 * Fix repo url
+* Fix unit tests
 
 ### 2.9.3: 2021-06-22
 
