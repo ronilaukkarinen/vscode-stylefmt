@@ -1,6 +1,10 @@
+### 2.9.4: 2022-05-19
+
+* Fix repo url
+
 ### 2.9.3: 2021-06-22
 
-Side note: Skipped 2.9.2 because of vsce token expiration.
+* Side note: Skipped 2.9.2 because of vsce token expiration.
 
 * Update stylefmt to 6.2.2
 

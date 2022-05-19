@@ -12,7 +12,7 @@
   "homepage": "https://github.com/ronilaukkarinen/vscode-stylefmt/blob/master/README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mrmlnc/vscode-stylefmt"
+    "url": "https://github.com/ronilaukkarinen/vscode-stylefmt"
   },
   "keywords": [
     "css",
