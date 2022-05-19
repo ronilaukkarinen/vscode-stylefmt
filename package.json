@@ -6,7 +6,7 @@
   "publisher": "ronilaukkarinen",
   "license": "MIT",
   "engines": {
-    "vscode": "^1.50.0"
+    "vscode": "^1.67.0"
   },
   "icon": "icon.png",
   "homepage": "https://github.com/ronilaukkarinen/vscode-stylefmt/blob/master/README.md",
