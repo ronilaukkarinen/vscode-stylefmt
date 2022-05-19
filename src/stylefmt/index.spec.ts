@@ -24,14 +24,14 @@ export function removeFile(filepath: string): Promise<any> {
 		}
 
 		return new Promise((resolve, reject) => {
-			fs.unlink(filepath, (err) => err ? reject(err) : resolve());
+			fs.unlink(filepath, (err) => err ? reject(err) : resolve(true));
 		});
 	});
 }
 
 export function writeFile(filepath: string, data: string) {
 	return new Promise((resolve, reject) => {
-		fs.writeFile(filepath, data, (err) => err ? reject(err) : resolve());
+		fs.writeFile(filepath, data, (err) => err ? reject(err) : resolve(true));
 	});
 }
 
@@ -64,6 +64,7 @@ const stylefmt = proxyquire('./index', {
 		workspace: {
 			getWorkspaceFolder: () => ({ uri: { fsPath: '.tmp' } })
 		},
+		// eslint-disable-next-line @typescript-eslint/naming-convention
 		'@noCallThru': true
 	}
 });

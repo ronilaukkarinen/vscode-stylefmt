@@ -1,5 +1,6 @@
 ### 2.9.4: 2022-05-19
 
+* Update packages and fix eslint errors
 * Fix repo url
 
 ### 2.9.3: 2021-06-22
