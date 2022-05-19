@@ -18,6 +18,8 @@ The official [stylefmt](https://github.com/morishitter/stylefmt) package has not
 
 The best thing in stylefmt is that it supports [stylelint](https://stylelint.io/) out-of-the-box without being too restrictive.
 
+**So, in short:** Practically this extension removes extra empty lines and indents the code to match the current indentation level. It does it a bit more efficiently than stylelint itself.
+
 ## Top contributors
 
 This plugin is constantly kept up to date by the following persons and a bunch of [awesome contributors](https://github.com/ronilaukkarinen/vscode-stylefmt/graphs/contributors). Wanna join in development? Let us know!
