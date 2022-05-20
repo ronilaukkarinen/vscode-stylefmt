@@ -1,3 +1,7 @@
+### 2.9.6: 2022-05-20
+
+* Update stylefmt to 6.2.4
+
 ### 2.9.5: 2022-05-20
 
 * Update stylefmt to 6.2.3
