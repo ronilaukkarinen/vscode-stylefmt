@@ -1,3 +1,7 @@
+### 2.9.5: 2022-05-20
+
+* Update stylefmt to 6.2.3
+
 ### 2.9.4: 2022-05-19
 
 * Update packages and fix eslint errors
