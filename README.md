@@ -4,7 +4,7 @@
 
 > [stylefmt](https://github.com/morishitter/stylefmt) is a tool that automatically formats your stylesheets.
 
-🍴 This is a WIP fork from [mrmlnc/vscode-stylefmt](https://github.com/mrmlnc/vscode-stylefmt) which is currently obsolete. This version is in daily use and kept up to date.
+🍴 This is a WIP fork from [mrmlnc/vscode-stylefmt](https://github.com/mrmlnc/vscode-stylefmt) which is currently obsolete. <s>This version is in daily use and kept up to date.</s> [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) and [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) together are the standard these days. I recommend checking them out.
 
 [![Screen cap](https://i.imgur.com/h5vFQPP.gif)](https://i.imgur.com/h5vFQPP.gif)
 
